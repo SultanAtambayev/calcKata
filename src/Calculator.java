@@ -127,6 +127,10 @@ public class Calculator {
             result.append("C");
             number -= 100;
         }
+        while (number >= 90) {
+            result.append("XC");
+            number -= 90;
+        }
         while (number >= 50) {
             result.append("L");
             number -= 50;
